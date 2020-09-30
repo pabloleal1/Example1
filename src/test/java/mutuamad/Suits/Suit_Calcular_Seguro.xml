@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Calcular Seguro" verbose="1">
+    <test name="Calcular tu seguro - Aplication part 14">
+        <classes>
+            <class name="mutuamad.test.Test_14_01"/>
+            <class name="mutuamad.test.Test_14_02"/>
+        </classes>
+    </test>
+</suite>

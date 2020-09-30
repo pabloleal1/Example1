@@ -1,0 +1,53 @@
+{
+  "user": {
+    "nif_nie_AutoInsurance": "366606D",
+    "nif_nie_Tarjetas": "29183762M",
+    "nif_nie_MotoInsurance": "46363331T",
+    "nif_nie_HomeInsurance": "29183762M",
+    "nif_nie_Amazon": "366606D",
+    "nif_nie_PuroGlobalis": "53810166X",
+    "nif_nie_MixtoGlobalis": "22479753J",
+    "nif_nie_Vida": "20841267R",
+    "nif_nie_Hogar": "27523423J",
+    "nif_nie_Accidentes": "46870999N",
+    "nif_nie_MoreThan6Policy": "77121328M",
+    "nif_nie_Ecomutua": "29183762M",
+    "nif_nie_ParteAveria": "29183762M",
+    "nif_nie_Incorrecto": "AAAAA",
+    "nif_nie_passLost" : "51105218T",
+    "nif_nie_ModificarCuentaCorriente": "366606D",
+    "nif_nie_PagoTarjetas": "55001182V",
+    "nif_nie_Regalos": "366606D",
+
+    "password": "MMMMMMMM",
+    "telAssistance": "666333222",
+    "telmobile": "666333222",
+    "addressAssistance" : "Calle Amor, 41006 Sevilla",
+    "otherDamageText" : "Rotura de llanta y neumatico del lado conductor",
+    "howHappened" : "Yo estaba subiendo por una calle con preferencia y el otro vehiculo se saltó el ceda al paso invadiendo el cruce",
+    "mail" : "Prueba"
+  },
+  "questions": {
+    "questionText": "puntos"
+  },
+  "menu": {
+    "option1": "SEGUROS",
+    "option2": "BUZÓN",
+    "option3": "ASISTENCIA",
+    "option4": "PARTE",
+    "option5": "TALLER",
+    "option6": "TARJETAS",
+    "option7": "VENTAJAS"
+  },
+  "display": {
+    "recibo": "DETALLE DEL RECIBO"
+  },
+  "setting": {
+    "mailboxActive": "false"
+  },
+  "details": {
+    "managePolicy": "VER Y GESTIONAR MI PÓLIZA",
+    "manageParts": "DAR Y GESTIONAR PARTES",
+    "seeReceipts": "VER RECIBOS"
+  }
+}

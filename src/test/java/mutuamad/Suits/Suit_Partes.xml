@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Partes" verbose="1">
+    <test name="Envio partes - diferentes polizas - Aplication part 3">
+        <classes>
+            <class name="mutuamad.test.Test_03_01"/>
+            <class name="mutuamad.test.Test_03_02"/>
+            <class name="mutuamad.test.Test_03_03"/>
+            <class name="mutuamad.test.Test_03_04"/>
+            <class name="mutuamad.test.Test_03_05"/>
+            <class name="mutuamad.test.Test_03_06"/>
+            <class name="mutuamad.test.Test_03_07"/>
+            <class name="mutuamad.test.Test_03_08"/>
+            <class name="mutuamad.test.Test_03_09"/>
+            <class name="mutuamad.test.Test_03_10"/>
+            <class name="mutuamad.test.Test_03_11"/>
+            <class name="mutuamad.test.Test_03_12"/>
+            <class name="mutuamad.test.Test_03_13"/>
+            <class name="mutuamad.test.Test_03_14"/>
+            <class name="mutuamad.test.Test_03_15"/>
+            <class name="mutuamad.test.Test_03_16"/>
+            <class name="mutuamad.test.Test_03_17"/>
+            <class name="mutuamad.test.Test_03_18"/>
+            <class name="mutuamad.test.Test_03_19"/>
+            <class name="mutuamad.test.Test_03_20"/>
+            <class name="mutuamad.test.Test_03_21"/>
+            <class name="mutuamad.test.Test_03_22"/>
+            <class name="mutuamad.test.Test_03_23"/>
+            <class name="mutuamad.test.Test_03_24"/>
+            <class name="mutuamad.test.Test_03_25"/>
+            <class name="mutuamad.test.Test_03_26"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Ventajas" verbose="1">
+    <test name="Ventajas - Aplication part 8">
+        <classes>
+            <class name="mutuamad.test.Test_08_01"/>
+            <class name="mutuamad.test.Test_08_02"/>
+            <class name="mutuamad.test.Test_08_03"/>
+            <class name="mutuamad.test.Test_08_04"/>
+            <class name="mutuamad.test.Test_08_05"/>
+            <class name="mutuamad.test.Test_08_06"/>
+        </classes>
+    </test>
+</suite>

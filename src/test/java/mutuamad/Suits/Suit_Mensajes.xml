@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Mensajes" verbose="1">
+    <test name="Mensajes - Aplication part 7">
+        <classes>
+            <class name="mutuamad.test.Test_07_01"/>
+            <class name="mutuamad.test.Test_07_02"/>
+            <class name="mutuamad.test.Test_07_03"/>
+        </classes>
+    </test>
+</suite>

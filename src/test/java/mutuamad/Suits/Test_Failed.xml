@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" verbose="1">
+
+    <test name="Login - Aplication part 1">
+        <classes>
+            <class name="mutuamad.test.Test_01_02"/>
+            <class name="mutuamad.test.Test_01_06"/>
+        </classes>
+    </test>
+
+    <test name="Globalis - Aplication part 2">
+        <classes>
+            <class name="mutuamad.test.Test_02_01"/>
+        </classes>
+    </test>
+
+    <test name="Modificar Datos - Aplication part 5">
+        <classes>
+            <class name="mutuamad.test.Test_05_11"/>
+        </classes>
+    </test>
+
+
+    <test name="Mensajes - Aplication part 7">
+        <classes>
+            <class name="mutuamad.test.Test_07_03"/>
+        </classes>
+    </test>
+
+
+    <test name="SSO - Aplication part 18">
+        <classes>
+            <class name="mutuamad.test.Test_18_01"/>
+            <class name="mutuamad.test.Test_18_02"/>
+        </classes>
+    </test>
+
+</suite>

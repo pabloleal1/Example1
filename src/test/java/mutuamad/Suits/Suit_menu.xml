@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Menu" verbose="1">
+    <test name="Menu (Contacto) - Aplication part 16">
+        <classes>
+            <class name="mutuamad.test.Test_16_01"/>
+            <class name="mutuamad.test.Test_16_02"/>
+            <class name="mutuamad.test.Test_16_03"/>
+        </classes>
+    </test>
+</suite>

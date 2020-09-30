@@ -1,0 +1,145 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" verbose="1">
+    <test name="Login Execution - Aplication part 1">
+        <classes>
+            <class name="mutuamad.test.Test_01_01"/>
+            <class name="mutuamad.test.Test_01_02"/>
+            <class name="mutuamad.test.Test_01_03"/>
+            <class name="mutuamad.test.Test_01_04"/>
+            <class name="mutuamad.test.Test_01_05"/>
+            <class name="mutuamad.test.Test_01_06"/>
+        </classes>
+    </test>
+    <test name="Globalis- Aplication part 2">
+        <classes>
+            <class name="mutuamad.test.Test_02_01"/>
+            <class name="mutuamad.test.Test_02_02"/>
+            <class name="mutuamad.test.Test_02_03"/>
+            <class name="mutuamad.test.Test_02_04"/>
+            <class name="mutuamad.test.Test_02_05"/>
+        </classes>
+    </test>
+
+    <test name="Asistencia - Aplication part 4">
+        <classes>
+            <class name="mutuamad.test.Test_04_01"/>
+            <class name="mutuamad.test.Test_04_02"/>
+            <class name="mutuamad.test.Test_04_03"/>
+            <class name="mutuamad.test.Test_04_04"/>
+            <class name="mutuamad.test.Test_04_05"/>
+            <class name="mutuamad.test.Test_04_06"/>
+            <class name="mutuamad.test.Test_04_07"/>
+            <class name="mutuamad.test.Test_04_08"/>
+            <class name="mutuamad.test.Test_04_09"/>
+            <class name="mutuamad.test.Test_04_10"/>
+        </classes>
+    </test>
+    <test name="Modificar Datos - Aplication part 5">
+        <classes>
+            <class name="mutuamad.test.Test_05_01"/>
+            <class name="mutuamad.test.Test_05_02"/>
+            <class name="mutuamad.test.Test_05_03"/>
+            <class name="mutuamad.test.Test_05_04"/>
+            <class name="mutuamad.test.Test_05_05"/>
+            <class name="mutuamad.test.Test_05_06"/>
+            <class name="mutuamad.test.Test_05_07"/>
+            <class name="mutuamad.test.Test_05_08"/>
+            <class name="mutuamad.test.Test_05_09"/>
+            <class name="mutuamad.test.Test_05_10"/>
+            <class name="mutuamad.test.Test_05_11"/>
+            <class name="mutuamad.test.Test_05_12"/>
+            <class name="mutuamad.test.Test_05_13"/>
+            <class name="mutuamad.test.Test_05_14"/>
+            <class name="mutuamad.test.Test_05_15"/>
+        </classes>
+    </test>
+    <test name="Recibos - Aplication part 6">
+        <classes>
+            <class name="mutuamad.test.Test_06_01"/>
+            <class name="mutuamad.test.Test_06_02"/>
+            <class name="mutuamad.test.Test_06_03"/>
+        </classes>
+    </test>
+    <test name="Mensajes - Aplication part 7">
+        <classes>
+            <class name="mutuamad.test.Test_07_01"/>
+            <class name="mutuamad.test.Test_07_02"/>
+            <class name="mutuamad.test.Test_07_03"/>
+        </classes>
+    </test>
+    <test name="Ventajas - Aplication part 8">
+        <classes>
+            <class name="mutuamad.test.Test_08_01"/>
+            <class name="mutuamad.test.Test_08_02"/>
+            <class name="mutuamad.test.Test_08_03"/>
+            <class name="mutuamad.test.Test_08_04"/>
+            <class name="mutuamad.test.Test_08_05"/>
+            <class name="mutuamad.test.Test_08_06"/>
+        </classes>
+    </test>
+    <test name="Buscar Taller - Aplication part 9">
+        <classes>
+            <class name="mutuamad.test.Test_09_01"/>
+            <class name="mutuamad.test.Test_09_02"/>
+            <class name="mutuamad.test.Test_09_03"/>
+            <class name="mutuamad.test.Test_09_04"/>
+        </classes>
+    </test>
+    <test name="Chatbox - Aplication part 10">
+        <classes>
+            <class name="mutuamad.test.Test_10_01"/>
+        </classes>
+    </test>
+    <test name="Eco mutua - Aplication part 11">
+        <classes>
+            <class name="mutuamad.test.Test_11_01"/>
+        </classes>
+    </test>
+    <test name="Sorteo - Aplication part 12">
+        <classes>
+            <class name="mutuamad.test.Test_12_01"/>
+        </classes>
+    </test>
+    <test name="Notificaciones - Aplication part 13">
+        <classes>
+            <class name="mutuamad.test.Test_13_01"/>
+        </classes>
+    </test>
+    <test name="Calcular tu seguro - Aplication part 14">
+        <classes>
+            <class name="mutuamad.test.Test_14_01"/>
+            <class name="mutuamad.test.Test_14_02"/>
+        </classes>
+    </test>
+    <test name="Editar perfil - Aplication part 15">
+        <classes>
+            <class name="mutuamad.test.Test_15_01"/>
+            <class name="mutuamad.test.Test_15_02"/>
+            <class name="mutuamad.test.Test_15_03"/>
+            <class name="mutuamad.test.Test_15_04"/>
+        </classes>
+    </test>
+    <test name="Menu (Contacto) - Aplication part 16">
+        <classes>
+            <class name="mutuamad.test.Test_16_01"/>
+            <class name="mutuamad.test.Test_16_02"/>
+            <class name="mutuamad.test.Test_16_03"/>
+        </classes>
+    </test>
+    <test name="Preguntas mas Frecuentes - Aplication part 17">
+        <classes>
+            <class name="mutuamad.test.Test_17_01"/>
+        </classes>
+    </test>
+    <test name="SSO - Aplication part 18">
+        <classes>
+            <class name="mutuamad.test.Test_18_01"/>
+            <class name="mutuamad.test.Test_18_02"/>
+        </classes>
+    </test>
+    <test name="Amazon - Aplication part 19">
+        <classes>
+            <class name="mutuamad.test.Test_19_01"/>
+        </classes>
+    </test>
+</suite>

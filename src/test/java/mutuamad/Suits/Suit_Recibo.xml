@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Recibos" verbose="1">
+    <test name="Recibos - Aplication part 6">
+        <classes>
+            <class name="mutuamad.test.Test_06_01"/>
+            <class name="mutuamad.test.Test_06_02"/>
+            <class name="mutuamad.test.Test_06_03"/>
+        </classes>
+    </test>
+</suite>

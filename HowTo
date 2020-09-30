@@ -1,0 +1,70 @@
+
+INSTALACION Y CONFIGURACION APPIUM DESKTOP
+------------------------------------------
+
+URL descarga : https://github.com/appium/appium-desktop/releases
+Configuración y arranque de Appium Desktop >> Ver imagenes descriptivas en el directorio "HowToTest" ubicado en la raíz del proyecto
+
+Los datos de configuración del proyecto en Appium son los siguientes (Para ejecución en Android) > Ver imagen 4_AppiumDesktop.png
+
+{
+  "app": "<RUTA_A_LA_APLICACION_APK>",
+  "fullReset": true,
+  "platformName": "Android",
+  "deviceName": "Android Device",
+  "udid": "<UDID_DISPOSITIVO_O_EMULADOR",
+  "appPackage": "com.mutua.mutua",
+  "appActivity": "com.mutua.mutua.ui.Activities.SplashActivity"
+}
+
+Una vez arrancada la aplicación con Appium se cargará automáticamente el Appium Inspector para poder inspeccionar la aplicación y sus elementos nativos.
+
+
+CREACION DE UN NUEVO TEST
+-------------------------
+
+1) Crear clase Screen
+Directorio : test/java/mutuamad/screen
+
+Una vez detectados los selectores de los elementos vía identificador o Xpath, crearemos la pantalla (Screen) correspondiente
+
+
+2) Crear clase de prueba (CP)
+Directorio : test/java/mutuamad/process
+
+Asignarle al nombre de la clase el siguiente número correlativo
+Indicar la secuencia de pasos de la prueba llamando a los métodos definidos en las clases Screen que intervengan en la prueba
+
+
+3) Crear clase de Test
+Directorio : test/java/mutuamad/test
+
+Crear la clase de Test con el mismo numero correlativo de la clase de prueba y hacer la llamada a la clase CP corespondiente.
+IMPORTANTE : Indicar en el nombre del método de test un nombre descriptivo de la prueba a fin de poder identificar qué se está probando en caso de realizar tests de regresión.
+
+Ejemplo (Test_004.java) :
+public void Asistencia_Vehiculo_Bateria() throws Exception {
+
+Así sabemos que el objeto de la prueba consiste en probar la secuencia de pasos para la asistencia de un vehiculo debido a batería.
+
+
+4) Añadir la clase de test a la lista de clases a ejecutar dentro del Runner:
+Directorio : test/java/mutuamad/test
+
+Añadir en la clase AllTests.java la nueva clase Test creada
+
+
+
+EJECUCION DE LOS TESTS
+----------------------
+
+Para ejecutar los tests se puede hacer de dos maneras:
+
+1) Indicando el test específico a ejecutar. Para ello pasar al parámetro o "test" la ruta y clase Test que se desea ejecutar
+
+mvn test -Dtest=mutuamad.test.Test_XXX -Dconfig=config-android-device.properties
+
+2) Ejecutando la totalidad de los tests de forma secuencial. Omitimos el parámetro "test" de esta manera actuará la clase runner AllTests ejecutandolos uno a uno.
+
+mvn test -Dconfig=config-android-device.properties
+

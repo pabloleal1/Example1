@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Pregntas mas frecuentes" verbose="1">
+    <test name="Preguntas mas Frecuentes - Aplication part 17">
+        <classes>
+            <class name="mutuamad.test.Test_17_01"/>
+        </classes>
+    </test>
+</suite>

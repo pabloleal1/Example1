@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Asistencia" verbose="1">
+    <test name="Asistencia - Aplication part 4">
+        <classes>
+            <class name="mutuamad.test.Test_04_01"/>
+            <class name="mutuamad.test.Test_04_02"/>
+            <class name="mutuamad.test.Test_04_03"/>
+            <class name="mutuamad.test.Test_04_04"/>
+            <class name="mutuamad.test.Test_04_05"/>
+            <class name="mutuamad.test.Test_04_06"/>
+            <class name="mutuamad.test.Test_04_07"/>
+            <class name="mutuamad.test.Test_04_08"/>
+            <class name="mutuamad.test.Test_04_09"/>
+            <class name="mutuamad.test.Test_04_10"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Modificar Datos" verbose="1">
+    <test name="Modificar Datos - Aplication part 5">
+        <classes>
+            <class name="mutuamad.test.Test_04_07"/>
+            <class name="mutuamad.test.Test_04_08"/>
+            <class name="mutuamad.test.Test_04_09"/>
+            <class name="mutuamad.test.Test_04_10"/>
+            <class name="mutuamad.test.Test_05_01"/>
+            <class name="mutuamad.test.Test_05_02"/>
+            <class name="mutuamad.test.Test_05_03"/>
+            <class name="mutuamad.test.Test_05_04"/>
+            <class name="mutuamad.test.Test_05_05"/>
+
+        </classes>
+    </test>
+</suite>

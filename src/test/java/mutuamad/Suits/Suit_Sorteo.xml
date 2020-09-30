@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Sorteo" verbose="1">
+    <test name="Sorteo - Aplication part 12">
+        <classes>
+            <class name="mutuamad.test.Test_12_01"/>
+        </classes>
+    </test>
+</suite>

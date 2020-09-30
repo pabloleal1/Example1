@@ -1,0 +1,109 @@
+
+BASE : Creación del driver de conexión con el dispositivo
+
+-- Process --
+CP0 : Cancelación de las notificaciones iniciales y acceso a la pantalla de login a través del menú
+CP1Amazon : Inicio session usuario Amazon
+CP1Ecomutua : Inicio session usuario standar
+CP1Globalis : Inicio session usuario Globalis Puro
+CP1GlobalisMixto : Inicio session usuario Globalis Mixto
+CP1HomeInsurance : Inicio session usuario Polizas de hogar
+CP1Incorrect User : Inicio session usuario Incorrecto
+CP1MoreThan6Policy : Inicio session usuario con mas de 6 polizas registradas en Mutua Madrileña
+CP1MotorBikeInsurance User : Inicio session usuario con Poliza de Moto
+CP1ParteAveria User : Inicio session usuario el cual tiene permisos para dar parte por 'He sufrido una averia'
+CP1Vida User : Inicio session usuario conj poliza de Vida
+CP1QuiTutoria User : Canelacion de tutorial
+
+
+-- Test --
+Test 001	Login erroneo - Login correcto
+Test 002	Login desde tarjetas
+Test 003	Login desde Dar Partes
+Test 004	Login desde Asistencia
+Test 005	Login desde Ajustes tras pulsar en el menú
+Test 006	Olvide mi contraseña, dni
+Test 007	Globalis usuario puro
+Test 008	Globalis usuario mixto
+Test 009	Dar parte, coche, tiene un golpe roce o impacto, con un vehiculo
+Test 010	Dar parte, coche, tiene un golpe roce o impacto, con mas de un vehiculo
+Test 011	Dar parte, coche, tiene un golpe roce o impacto, con una persona animal o cosa
+Test 012	Dar parte, coche, tiene un golpe roce o impacto, sin contrarios, Rotura de una o varias lunas
+Test 013	Dar parte, coche, tiene un golpe roce o impacto, sin contrarios, Otros daños
+Test 014	Dar parte, coche, me han robado, me han robado mi coche, SI ha aparecido
+Test 015	Dar parte, coche, me han robado, me han robado mi coche, NO ha aparecido
+Test 016	Dar parte, coche, me han robado, me han robado elementos de mi coche
+Test 017	Dar parte, coche, ha habido un incendio
+Test 018	Dar parte, coche, he sufrido daños por causas meteorologicas
+Test 019	Dar parte, coche, mi coche no ha sifrido daños
+Test 020	Dar parte, moto, una sola poliza, tiene un golpe roce o impacto, con un vehiculo
+Test 021	Dar parte, moto, tiene un golpe roce o impacto, con mas de un vehiculo
+Test 022	Dar parte, moto, tiene un golpe roce o impacto, con una persona animal o cosa
+Test 023	Dar parte, moto, tiene un golpe roce o impacto, sin contrarios, Lunas
+Test 024	Dar parte, moto, tiene un golpe roce o impacto, sin contrarios, Otros daños
+Test 025	Dar parte, moto, me han robado, me han robado mi coche, SI ha aparecido
+Test 026	Dar parte, moto, me han robado, me han robado mi coche, NO ha aparecido
+Test 027	Dar parte, moto, me han robado, me han robado elementos de mi coche
+Test 028	Dar parte, moto, ha habido un incendio
+Test 029	Dar parte, moto, he sufrido daños por causas meteorologicas
+Test 030	Dar parte, moto, mi coche no ha sifrido daños
+Test 031	Dar parte, tiene una averia
+Test 032	Dar parte, home, mensaje call center
+Test 033	Dar parte, vida, mensaje call center
+Test 034	tipo parte (Crear un parte, guardarlo, Verificar datos en parte guardado y borrar parte guardado)
+Test 035	Asistencia por averia(bateria) para coche gris en superficie
+Test 036	Asistencia por averia(gasolina) para las rozas coche en superficie gris
+Test 037	Asistencia por averia(fallo electrico)
+Test 038	Asistencia por averia(mecanico)
+Test 039	Asistencia por averia(motor)
+Test 040	Asistencia por averia(rudea)
+Test 041	Asistencia por averia(otros) (hizo scroll) para las rozas en superficie, color gris
+Test 042	Asistencia por averia(otros) - Cancelar
+Test 043	Asistencia para hogar
+Test 044	Asistencia por averia(no arranca)
+Test 045	Mis seguros, ver y gestionar mi poliza, coberturas, modificar coberturas
+Test 046	Mis seguros coche , ver y gestionar poliza, personas, tomador del seguro
+Test 047	Mis seguros coche , ver y gestionar poliza, personas, modifica conductor habitual
+Test 048	Mis seguros coche , ver y gestionar poliza, personas, modifica propiertario del vehiculo
+Test 049	Mis seguros coche , ver y gestionar poliza, coche, modifica datos del coche
+Test 050	Mis seguros coche , ver y gestionar poliza, coche, reportar accesorios
+Test 051	Mis seguros coche , ver y gestionar poliza, Gestiones mas frecuentes, todas las opciones
+Test 052	Editar datos del Tomador - Calle
+Test 053	Editar datos del Tomador - Código postal
+Test 054	Editar datos del Tomador - Ciudad
+Test 055	Editar datos del Tomador - Provincia
+Test 056	Editar datos del Tomador - Número de telefono
+Test 057	Editar datos del Tomador - Número de movil
+Test 058	Editar datos del Tomador - Email
+Test 059	Editar datos del Tomador - Campos vacios
+Test 060	Mis seguros coche , ver recibos , recibo
+Test 061	Editar cuenta corriente desde 'Tus Recibos'
+Test 062	Mensajes acceder al mailbox
+Test 063	Eliminar mensajes
+Test 064	Mensajes NO leidos
+Test 065	Ver los puntos de repsol desde mis ventajas
+Test 066	Acceso a europuntos desde las tarjetas de la home
+Test 067	Ventajas, Buscar/Filtrar ventajas
+Test 068	Checkea que existen y son accesibles las diferentes ventajas
+Test 069	Ver ofertas para mi (Filtros)
+Test 070	Buscar taller para coche, lunas
+Test 071	Buscar taller coche, carrocerias
+Test 072	Buscar taler coche, garantia mecanica
+Test 073	Revisar chatbot(simple)
+Test 074	Eme Aparece en la home
+Test 075	Eco Mutua - Usuario con solo una matricula, + matricula ECO
+Test 076	Sorteo (Ventajas)
+Test 077	Ajustes, habilitar notificaciones y acceso con huella
+Test 078	Usuario menos de 6 polizas, menu, calcular tu seguro
+Test 079	Usuario mas de 6 polizas, menu, calcular tu seguro
+Test 080	Editar datos de contacto mail
+Test 081	Editar datos de contacto telefono
+Test 082	Editar datos de contacto mail y tlf
+Test 083	Editar datos de contacto mail y tlf incorrectos
+Test 084	Contacto, telefono, oficinas, (Falta ayuda)
+Test 085	Contacto, (Falta ayuda) , escribe puntos en el buscador y abre las diferentes secciones
+Test 086	Ajustes, politica de privacidad
+Test 087	Editar cuenta corriente desde ' Preguntas mas frecuentes '
+Test 088	single sign on ventajas
+Test 089	single sign on partes
+Test 090	Amazon

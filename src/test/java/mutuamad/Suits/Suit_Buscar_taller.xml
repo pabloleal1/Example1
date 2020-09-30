@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Buscar Taller" verbose="1">
+    <test name="Buscar Taller - Aplication part 9">
+        <classes>
+            <class name="mutuamad.test.Test_09_01"/>
+            <class name="mutuamad.test.Test_09_02"/>
+            <class name="mutuamad.test.Test_09_03"/>
+            <class name="mutuamad.test.Test_09_04"/>
+        </classes>
+    </test>
+</suite>

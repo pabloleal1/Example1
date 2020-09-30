@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Login" verbose="1">
+<test name="Login Execution - Aplication part 1">
+<classes>
+    <class name="mutuamad.test.Test_01_01"/>
+    <class name="mutuamad.test.Test_01_02"/>
+    <class name="mutuamad.test.Test_01_03"/>
+    <class name="mutuamad.test.Test_01_04"/>
+    <class name="mutuamad.test.Test_01_05"/>
+    <class name="mutuamad.test.Test_01_06"/>
+</classes>
+</test>
+        </suite>

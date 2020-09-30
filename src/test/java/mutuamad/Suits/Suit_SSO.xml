@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - SSO" verbose="1">
+    <test name="SSO - Aplication part 18">
+        <classes>
+            <class name="mutuamad.test.Test_18_01"/>
+            <class name="mutuamad.test.Test_18_02"/>
+        </classes>
+    </test>
+</suite>

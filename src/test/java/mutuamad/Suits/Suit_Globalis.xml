@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Globalis" verbose="1">
+    <test name="Globalis- Aplication part 2">
+        <classes>
+            <class name="mutuamad.test.Test_02_01"/>
+            <class name="mutuamad.test.Test_02_02"/>
+            <class name="mutuamad.test.Test_02_03"/>
+            <class name="mutuamad.test.Test_02_04"/>
+            <class name="mutuamad.test.Test_02_05"/>
+        </classes>
+    </test>
+</suite>

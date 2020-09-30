@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - ChatBox" verbose="1">
+    <test name="Chatbox - Aplication part 10">
+    <classes>
+        <class name="mutuamad.test.Test_10_01"/>
+        <class name="mutuamad.test.Test_10_02"/>
+    </classes>
+    </test>
+</suite>

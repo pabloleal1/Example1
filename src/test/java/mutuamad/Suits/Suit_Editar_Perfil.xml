@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Editar Perfil" verbose="1">
+    <test name="Editar perfil - Aplication part 15">
+        <classes>
+            <class name="mutuamad.test.Test_15_01"/>
+            <class name="mutuamad.test.Test_15_02"/>
+            <class name="mutuamad.test.Test_15_03"/>
+            <class name="mutuamad.test.Test_15_04"/>
+        </classes>
+    </test>
+</suite>

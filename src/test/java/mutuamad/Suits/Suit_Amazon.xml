@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite - Amazon" verbose="1">
+    <test name="Amazon - Aplication part 19">
+        <classes>
+            <class name="mutuamad.test.Test_19_01"/>
+        </classes>
+    </test>
+</suite>
