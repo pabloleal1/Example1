@@ -50,6 +50,6 @@ public class Test_01_01 extends CreateExtetReport {
         ExtentTest node3 = test1.createNode("Login was successsfull");
         CreateExtetReport.stepsVerifications(welcomeScreen.verifyHolaIsShown(), node3, "Showing the correct screen after login");
         Assert.assertTrue(welcomeScreen.verifyHolaIsShown(),"Error - El login no se ha realizado correctamente");
-
+        System.out.println("HOla pal");
     }
 }
