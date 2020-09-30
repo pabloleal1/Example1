@@ -57,5 +57,6 @@ public class CP0 extends Process {
         principalScreen.clickLinkMenu();
         Utilities.sleep(5000);
         principalScreen.clickLinkOptionLoginMenu();
+        System.out.println("HOLA");
     }
 }
