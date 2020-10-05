@@ -44,6 +44,6 @@ public class Test_01_02  extends CreateExtetReport {
         ExtentTest node2 = test1.createNode("Showing the correct screen after login");
         CreateExtetReport.stepsVerifications(welcomeScreen.verifyQRCodeIsShown(), node2, "Showing the correct screen after login");
         Assert.assertTrue(welcomeScreen.verifyQRCodeIsShown(),"La ventana de la tarjeta NO es mostrada, tras iniciar sesion desde la tarjeta" );
-
+        System.out.println("Jelou Pablo");
     }
 }
